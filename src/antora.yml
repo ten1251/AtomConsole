@@ -1,0 +1,7 @@
+name: main
+title: Main page
+version: 2.5
+prerelease: -beta.1
+nav:
+- modules/ROOT/nav.adoc
+
