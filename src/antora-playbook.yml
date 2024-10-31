@@ -1,6 +1,6 @@
 site:
   title: Atom Console Docs
-  url: https://Atom.docs.com
+  #url: https://Atom.docs.com
   start_page: index.adoc
 content:
   sources:
