@@ -9,7 +9,7 @@ content:
     start_path: src
 ui:
   bundle:
-    url: /Users/nikita/Documents/Atom Documentation Antora/ui-bundle.zip
+    url: /Users/nikita/Documents/Atom Documentation Antora/ui-bundle
     snapshot: true
 runtime:
   fetch: true
