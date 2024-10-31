@@ -9,7 +9,7 @@ content:
     start_path: src
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: /Users/nikita/Documents/Atom Documentation Antora/ui-bundle.zip
     snapshot: true
 runtime:
   fetch: true
