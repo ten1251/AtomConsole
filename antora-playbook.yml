@@ -7,3 +7,7 @@ content:
   - url: https://github.com/ten1251/AtomConsole.git
     branches: HEAD
     start_path: docs
+  ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
