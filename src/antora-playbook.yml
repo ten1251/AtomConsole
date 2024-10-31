@@ -1,7 +1,7 @@
 site:
   title: Atom Console Docs
   #url: https://Atom.docs.com
-  start_page: component::index.adoc
+  start_page: main::index.adoc
 content:
   sources:
   - url: https://github.com/ten1251/AtomConsole.git
