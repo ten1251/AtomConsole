@@ -1,1 +1,10 @@
 * xref:index.adoc[]
+* xref:modules/module-one/nav.adoc[]
+
+content:
+  sources:
+    - url: https://github.com/ten1251/AtomConsole.git
+      branches: [main]
+    - url: https://gitlab.com/antora/demo/demo-component-b.git
+      branches: [main]
+      start_path: docs
