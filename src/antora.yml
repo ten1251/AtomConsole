@@ -4,12 +4,13 @@ version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
-- include::2.5-beta.1@component:moduleExt:modules/ROOT/nav.adoc[URA]
+- modules/module-one/nav.adoc
 
-components:
-  - moduleExt:
-      title: moduleExt
-      url: https://gitlab.com/antora/demo/demo-component-b.git
-      branches: [main]
-      start_path: docs
+content:
+  sources:
+    - url: https://github.com/ten1251/AtomConsole.git
+      branches: main
+    - url: https://gitlab.com/antora/demo/demo-component-b.git
+      branches: main
+      start_path: docs/modules/ROOT/nav.adoc
 
