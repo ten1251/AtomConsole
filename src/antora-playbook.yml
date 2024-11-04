@@ -7,6 +7,10 @@ content:
   - url: https://github.com/ten1251/AtomConsole.git
     branches: [main]
     start_path: src
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [main, v2.0, v1.0]
+    start_path: docs
+
 ui:
   bundle:
     url: /Users/nikita/Documents/Atom Documentation Antora/ui-bundle
