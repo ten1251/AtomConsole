@@ -8,7 +8,7 @@ content:
     branches: [main]
     start_path: src
   - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [main, v2.0, v1.0]
+    branches: [main]
     start_path: docs
 
 ui:

@@ -4,4 +4,13 @@ version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
+- moduleExt
+modules:
+- moduleExt
+components:
+  - moduleExt:
+      title: moduleExt
+      url: https://gitlab.com/antora/demo/demo-component-b.git
+      branches: [main]
+      start_path: docs
 
