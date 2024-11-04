@@ -1,5 +1,5 @@
 * xref:index.adoc[]
-* xref:modules/module-one/nav.adoc[]
+* include::modules/module-one/nav.adoc[]
 
 content:
   sources:
