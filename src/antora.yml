@@ -4,13 +4,5 @@ version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
-- modules/module-one/nav.adoc
 
-content:
-  sources:
-    - url: https://github.com/ten1251/AtomConsole.git
-      branches: [main]
-    - url: https://gitlab.com/antora/demo/demo-component-b.git
-      branches: [main]
-      start_path: docs/modules/ROOT/nav.adoc
 
