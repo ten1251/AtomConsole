@@ -4,6 +4,8 @@ version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
+- include::2.5-beta.1@component:moduleExt:modules/ROOT/nav.adoc[URA]
+
 modules:
 - moduleExt
 components:
