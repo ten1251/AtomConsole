@@ -1,9 +1,7 @@
 name: main
 title: Main page
-version: 2.5
+version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
-- xref:modules/ROOT/nav.adoc[]
-- xref:modules/module-one/nav.adoc
 
