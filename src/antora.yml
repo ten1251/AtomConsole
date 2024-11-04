@@ -4,7 +4,6 @@ version: 1
 prerelease: -beta.1
 nav:
 - modules/ROOT/nav.adoc
-- moduleExt
 modules:
 - moduleExt
 components:
