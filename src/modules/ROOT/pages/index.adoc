@@ -50,4 +50,24 @@ image::image-2024-8-20_22-41-3.png[]
 
 image::Содержание раздела new.png[]
 
-/Users/nikita/Documents/Atom Documentation Antora/src/my-project/mkdocs.yml
+.A table with a title 
+[%autowidth]
+[cols="3, 1"]
+|===
+|Column 1, header row |Column 2, header row
+|Cell in column 1, row 1 
+|Cell in column 2, row 1 
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3 
+
+|1
+|2
+
+|qe
+|qeqe
+
+|=== 
