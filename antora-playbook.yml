@@ -13,7 +13,7 @@ content:
 
 ui:
   bundle:
-    url: /Users/nikita/Documents/Atom Documentation Antora/ui-bundle
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
 runtime:
   fetch: true
