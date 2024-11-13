@@ -1,4 +1,5 @@
-* xref:AR Engine/glossary.adoc[]
+* xref:index.adoc[]
+** xref:AR Engine/glossary.adoc[]
 ** xref:AR Engine/introduction.adoc[]
 ** xref:AR Engine/AR Engine API.adoc[]
 ** xref:AR Engine/AR Engine Emuliator.adoc[]
