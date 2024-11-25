@@ -7,3 +7,4 @@
  ** xref:AR/classlist.adoc[]
  ** xref:AR/management.adoc[]
  ** xref:AR/fileformats.adoc[]
+* xref:test.adoc[]
