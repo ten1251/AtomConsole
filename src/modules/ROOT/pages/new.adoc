@@ -39,38 +39,9 @@ public class HelloWorld {
 
 AsciiDoc отлично интегрируется с PlantUML. 
 
-[plantuml, format="png", id="state-diagram"]
+[plantuml, my-schema, svg]
 ....
-@startuml
-skinparam state {
-  BackgroundColor<<active>> #B3E5FC
-  BackgroundColor<<moderation_in_progress>> #FFF9C4
-  BackgroundColor<<completed>> #C8E6C9
-  BackgroundColor<<moderation_rejected>> #FFCDD2
-}
-
-[*] --> active : Создание заявки
-
-state active <<active>> {
-  active : Статус после создания
-}
-state moderation_in_progress <<moderation_in_progress>> {
-  moderation_in_progress : Модерация начата
-}
-state completed <<completed>> {
-  completed : Модерация завершена
-}
-state moderation_rejected <<moderation_rejected>> {
-  moderation_rejected : Отклонено модерацией
-}
-
-active --> moderation_in_progress : Взятие в работу модератором
-moderation_in_progress --> active : Вернуть на распределение
-moderation_in_progress --> completed : Завершение модерации
-moderation_in_progress --> moderation_rejected : Отклонение модерацией
-moderation_rejected --> active : Исправления инициатором
-
-@enduml
+include::example$plant.puml[]
 ....
 
 Диаграмма наглядно показывает жизненный цикл заявки на модерацию.
