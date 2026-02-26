@@ -9,3 +9,4 @@
  ** xref:AR/fileformats.adoc[]
 * xref:test.adoc[]
 * xref:testPage.adoc[]
+* xref:new.adoc[]
