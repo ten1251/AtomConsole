@@ -40,11 +40,10 @@ public class HelloWorld {
 AsciiDoc отлично интегрируется с PlantUML. 
 
 [plantuml, my-schema, svg]
-....
+----
 include::example$plant.puml[]
-....
+----
 
-Диаграмма наглядно показывает жизненный цикл заявки на модерацию.
 
 == Мультимедиа
 
