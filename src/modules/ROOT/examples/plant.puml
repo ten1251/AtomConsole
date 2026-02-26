@@ -1,5 +1,0 @@
-@startuml
-skinparam responseMessageBelowArrow true
-Bob -> Alice : дай пять рублей
-Bob <- Alice : нет, не дам
-@enduml
