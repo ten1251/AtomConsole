@@ -39,9 +39,10 @@ public class HelloWorld {
 
 AsciiDoc отлично интегрируется с PlantUML. 
 
-[plantuml, plant, svg]
+[plantuml]
 ----
-include::example$plant.puml[]
+alice -> bob
+bob -> alice
 ----
 
 
