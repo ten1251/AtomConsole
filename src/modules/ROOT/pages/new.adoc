@@ -35,15 +35,6 @@ public class HelloWorld {
 }
 ----
 
-== Диаграммы PlantUML
-
-AsciiDoc отлично интегрируется с PlantUML. 
-
-[plantuml]
-----
-alice -> bob
-bob -> alice
-----
 
 
 == Мультимедиа
