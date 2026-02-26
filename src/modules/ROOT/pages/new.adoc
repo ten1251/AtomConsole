@@ -37,9 +37,9 @@ public class HelloWorld {
 
 == Диаграммы PlantUML
 
-AsciiDoc отлично интегрируется с PlantUML. Для рендеринга этой диаграммы в вашей системе должен быть установлен и доступен `plantuml.jar` или настроен соответствующий фильтр.
+AsciiDoc отлично интегрируется с PlantUML. 
 
-[plantuml, "state-diagram", png]
+[plantuml, format="png", id="state-diagram"]
 ....
 @startuml
 skinparam state {
@@ -72,6 +72,7 @@ moderation_rejected --> active : Исправления инициатором
 
 @enduml
 ....
+
 Диаграмма наглядно показывает жизненный цикл заявки на модерацию.
 
 == Мультимедиа
