@@ -10,3 +10,4 @@
 * xref:test.adoc[]
 * xref:testPage.adoc[]
 * xref:new.adoc[]
+* xref:file.adoc[]
